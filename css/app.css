@@ -84,7 +84,8 @@ span::after {
 }
 
 #nav a {
-    color: #fff;
+    font-family: Codepro;
+    color: black;
     text-decoration: none;
     line-height: 70vw;
     position: absolute;
@@ -255,7 +256,7 @@ article a:hover {
     width: 300px;
     background: no-repeat;
     text-align: center;
-    border-radius: 30%;
+    border-radius: 40%;
 }
 
 * {
@@ -373,14 +374,15 @@ body {
 }
 
 .duction {
-    font-family: Codepro;
-    font-size: 30px;
-    color: cornsilk;
+    font-family: AlexBrush;
+    font-size: 40px;
+    color: darkcyan;
     text-align: center;
     text-decoration: underline;
 }
 
 .wrap {
-    width: 90% margin: auto;
+    width: 90%;
+    margin: auto;
     max-width: 1100px;
 }

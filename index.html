@@ -21,10 +21,10 @@
     <nav id="nav">
         <ul>
             <li class="shape-circle circle-one"><a href="#">Contact</a></li>
-            <li class="shape-circle circle-two"><a href="#">Blog</a></li>
-            <li class="shape-circle circle-three"><a href="#">About Me</a></li>
+            <li class="shape-circle circle-two"><a href="#blog">Blog</a></li>
+            <li class="shape-circle circle-three"><a href="#AboutMe">About Me</a></li>
             <li class="shape-circle circle-five">
-                <a href="index.html">Home</a>
+                <a href="#Home">Home</a>
             </li>
         </ul>
     </nav>
@@ -39,19 +39,53 @@
         <div id="front"></div>
     </div>
     <!--MAIN CONTENT SECTION -->
-    <section class="Home">
+    <section class="Home" id="Home">
         <div class="row large-up-12 columns wrap">
-            <h1 class="duction">INTRODUCTION</h1>
-            <p class="intro">I a Wed developer determined to impact the world positively through how my code.
+            <h2 class="duction">DENNIS GITHUA G.</h2>
+            <p class="intro">I am a Web developer determined to impact the world positively through how my code.
                 <br> Websites should be responsive and highly presentable and that is what I strive to develop.</p>
 
         </div>
     </section>
 
+    <section class="AboutME" id="AboutMe">
+        <div class="row medium-12 columns">
+            <h2 class="About">About Me</h2>
+            <p class="intro">I am a Web developer determined to impact the world positively through how my code.
+                <br> Websites should be responsive and highly presentable and that is what I strive to develop.</p>
+        </div>
 
-    <!--FOOTER SECTION-->
+    </section>
+    <!--    Footer Section-->
 
-    <footer></footer>
+    <footer id="contactme" class="row medium-12 columns form">
+
+        <form>
+            <div class="row">
+                <div class="medium-6 columns">
+                    <label>Name
+                        <input type="text" placeholder="Full Names">
+                    </label>
+                </div>
+                <div class="medium-6 columns">
+                    <label>Email Address
+                        <input type="text" placeholder="Email Address">
+                    </label>
+                </div>
+            </div>
+            <div class=" row meduium-12 columns">
+                <label>
+                    Feedback
+                    <textarea placeholder="Enter Text"></textarea>
+                </label>
+            </div>
+            <div class="row medium-4 columns">
+                <a class="success button" href="#">Submit</a>
+
+            </div>
+        </form>
+
+    </footer>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
