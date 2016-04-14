@@ -8,6 +8,8 @@
     <title>Foundation for Sites</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display:900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:500italic' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -16,6 +18,8 @@
     <div class="bars" id="nav-action">
         <span class="bar"> </span>
     </div>
+    <div id="back"></div>
+    <div id="front"></div>
 
     <!--Navbar Links-->
     <nav id="nav">
@@ -30,17 +34,15 @@
     </nav>
 
     <!--HEADER SECTION-->
-    <div class="row large-12 columns headerimg">
-        <div class="large-3 columns">&nbsp;</div>
-        <div class="large-6 columns"><img class="profileP img" src="images/13007258_1038417966224532_7677169963446623048_n.jpg">
-        </div>
-        <div class="large-3 columns">&nbsp;</div>
-        <div id="back"></div>
-        <div id="front"></div>
+    <div class="row headerimg">
+        <div class="small-6 large-centered columns profilep"><img src="images/13007258_1038417966224532_7677169963446623048_n.jpg" class="PP"></div>
     </div>
+
     <!--MAIN CONTENT SECTION -->
+
+    <!--
     <section class="Home" id="Home">
-        <div class="row large-up-12 columns wrap">
+        <div class="row medium-up-12 columns wrap">
             <h2 class="duction">DENNIS GITHUA G.</h2>
             <p class="intro">I am a Web developer determined to impact the world positively through how my code.
                 <br> Websites should be responsive and highly presentable and that is what I strive to develop.</p>
@@ -56,25 +58,27 @@
         </div>
 
     </section>
+-->
     <!--    Footer Section-->
 
     <footer id="contactme" class="row medium-12 columns form">
 
         <form>
+            <h2 class="CM name">CONTACT ME</h2>
             <div class="row">
-                <div class="medium-6 columns">
-                    <label>Name
+                <div class="medium-6 columns ">
+                    <label class="CM name">Name
                         <input type="text" placeholder="Full Names">
                     </label>
                 </div>
                 <div class="medium-6 columns">
-                    <label>Email Address
+                    <label class="CM name">Email Address
                         <input type="text" placeholder="Email Address">
                     </label>
                 </div>
             </div>
             <div class=" row meduium-12 columns">
-                <label>
+                <label class="CM name">
                     Feedback
                     <textarea placeholder="Enter Text"></textarea>
                 </label>
