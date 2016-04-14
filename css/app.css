@@ -248,6 +248,7 @@ article a:hover {
     background-position: center;
 }
 
+
 /*.headerimg {
     height: 300px;
 }
@@ -397,7 +398,7 @@ body {
 }
 
 .headerimg {
-    border-radius:50%;
+    border-radius: 50%;
 }
 
 .PP {
@@ -409,5 +410,12 @@ body {
 }
 
 .name {
-    color:#37CE6F;
+    color: #37CE6F;
+}
+
+.SLinks li {
+    display: inline-block;
+}
+.Home {
+    height: auto;
 }
