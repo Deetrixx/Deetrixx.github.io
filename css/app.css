@@ -387,6 +387,7 @@ body {
     width: 90%;
     margin: auto;
     max-width: 1100px;
+    background:url('images/image.jpg');
 }
 
 .profilep {
@@ -417,5 +418,25 @@ body {
     display: inline-block;
 }
 .Home {
-    height: auto;
+    height: 500px;
+
+}
+
+.Slinks {
+    display:inline-block;
+    float:left;
+}
+
+
+
+
+
+.links {
+   font-family:'Playfair Display', serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
 }
