@@ -522,7 +522,7 @@ body {
 .Folio {
     font-size: 19px;
     font-family: 'Playfair Display', serif;
-    padding:0 70px 0 80px;
+/*    padding:0 70px 0 80px;*/
 }
 
 .form {
@@ -530,7 +530,7 @@ body {
     color: #999:
 }
 .pf {
-    height:100px;
+    height:350px;
 }
 
 #Portfolio {
