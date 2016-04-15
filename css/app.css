@@ -3,7 +3,7 @@
 @import url('http://fonts.googleapis.com/css?family=Montserrat|Bitter');
 * {
     margin: 0;
-    padding: 0;
+    padding: 0
     /*border-radius: 50%;*/
 }
 
@@ -458,7 +458,7 @@ body {
 
 .descrip {
     font-family: PlayFair Display;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .follow {
@@ -494,7 +494,7 @@ body {
     left: 3%;
     -webkit-transform: translate3d(-3%, -5%, 0);
     transform: translate3d(-5%, -5%, 0);
-    text-decoration:none;
+    text-decoration: none;
     font-size: 95px;
 }
 
@@ -522,4 +522,17 @@ body {
 .Folio {
     font-size: 19px;
     font-family: 'Playfair Display', serif;
+    padding:0 70px 0 80px;
+}
+
+.form {
+    padding: 10px;
+    color: #999:
+}
+.pf {
+    height:100px;
+}
+
+#Portfolio {
+    padding:0 70px 0 80px
 }
