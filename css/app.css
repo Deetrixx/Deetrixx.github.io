@@ -369,11 +369,10 @@ body {
 }
 
 .intro {
-    font-family: Codepro;
     font-size: 25px;
     color: snow;
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: PlayFair Display;
 }
 
 .duction {
@@ -390,7 +389,7 @@ body {
     margin: auto;
     max-width: 1100px;
     font-family: 'Lobster', cursive;
-    height:600px;
+    height: 600px;
 }
 
 .profilep {
@@ -417,12 +416,14 @@ body {
     color: #37CE6F;
 }
 
-.SLinks li {
+.Slinks li {
     display: inline-block;
+    float: left;
+    padding-right: 10px;
 }
 
 .Home {
-    height: 500px;
+    height: 450px;
 }
 
 .Slinks {
@@ -436,14 +437,31 @@ body {
     text-align: center;
 }
 
-
 .FEnd {
-    font-size:19px;
+    font-size: 19px;
     font-family: 'Playfair Display', serif;
-
 }
 
 .BEnd {
-    font-size:19px;
+    font-size: 19px;
     font-family: 'Playfair Display', serif;
+}
+
+.Cat {
+    color: #3057B8;
+    font-family: 'Lobster', cursive;
+}
+
+.About {
+    font-family: PlayFair Display;
+}
+
+.descrip {
+    font-family: PlayFair Display;
+    font-size: 20px;
+}
+
+.follow {
+    font-family: PlayFair Display;
+    font-size: 20px;
 }
