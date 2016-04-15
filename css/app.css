@@ -513,3 +513,8 @@ body {
         font-size: 3em;
     }
 }
+
+.likes {
+    font-size: 19px;
+    font-family: 'Playfair Display', serif;
+}
