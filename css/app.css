@@ -143,3 +143,13 @@ NAVIGATION SECTION
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
+/****************************************************************
+                    Home Section
+****************************************************************/
+
+.home {
+    background-image:url(/fuji_x100s_camera-wallpaper-3554x1999.jpg);
+    width:100%;
+    max-width:3554px;
+    height: auto;
+}
