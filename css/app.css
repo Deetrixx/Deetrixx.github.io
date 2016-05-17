@@ -154,9 +154,16 @@ NAVIGATION SECTION
     width: 100%;
     max-width: 1280px;
     height: 800px;
+
 }
 
 .container {
     width: 100%;
     height: auto;
+}
+
+.intro {
+        font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    color:aqua;
 }
