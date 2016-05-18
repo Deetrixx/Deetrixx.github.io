@@ -167,3 +167,7 @@ NAVIGATION SECTION
     font-size: 25px;
     color:aqua;
 }
+
+.profileimage {
+    border-radius: 50%;
+}
