@@ -165,12 +165,13 @@ NAVIGATION SECTION
 .intro {
         font-family: 'Playfair Display', serif;
     font-size: 25px;
-    color:aqua;
+    color:#1AA325;
+/*    float:left;*/
 }
 
 .profileimage {
     border-radius: 50%;
-    height:100px;
+    height:200px;
     float: left;
 
 }
