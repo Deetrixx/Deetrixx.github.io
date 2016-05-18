@@ -170,4 +170,11 @@ NAVIGATION SECTION
 
 .profileimage {
     border-radius: 50%;
+    height:100px;
+    float: left;
+
+}
+
+.image {
+    height:  150px;
 }
