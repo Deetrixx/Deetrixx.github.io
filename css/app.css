@@ -188,7 +188,26 @@ NAVIGATION SECTION
     height: 20vw;
 }
 
-skills
+
+/****************************************************************
+                        About Me
+****************************************************************/
+
+.SIntro {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5vw;
+}
+
+.skills {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
+}
+
+.skls {
+    color: #2BAD48;
+}
+
+
 /****************************************************************
                          Contact us
 ****************************************************************/
