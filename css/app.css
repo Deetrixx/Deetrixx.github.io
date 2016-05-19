@@ -193,6 +193,13 @@ NAVIGATION SECTION
                         About Me
 ****************************************************************/
 
+.aboutme {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8vw;
+    color: black;
+    text-decoration: underline;
+}
+
 .personal {
     font-family: 'Playfair Display', serif;
     font-size: 2.5vw;
@@ -201,7 +208,8 @@ NAVIGATION SECTION
 
 .SA li {
     font-family: 'Playfair Display', serif;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
+    /*    text-align: center;*/
 }
 
 .SIntro {
