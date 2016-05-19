@@ -188,15 +188,22 @@ NAVIGATION SECTION
     height: 20vw;
 }
 
+
+/****************************************************************
+                         Contact us
+****************************************************************/
+
 .smedia {
     font-family: 'Playfair Display', serif;
     font-size: 2.5vw;
     color: #1AA325;
+    height: 20vw;
 }
 
 .socialmedia {
-    display: inline;
+    display: inline-block;
     color: #1AA325;
+    text-decoration: none;
 }
 
 
