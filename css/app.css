@@ -188,7 +188,7 @@ NAVIGATION SECTION
     height: 20vw;
 }
 
-
+skills
 /****************************************************************
                          Contact us
 ****************************************************************/
@@ -201,6 +201,11 @@ NAVIGATION SECTION
 }
 
 .socialmedia {
+    list-style: none;
+}
+
+.socialmedia li {
+    padding: 6px;
     display: inline-block;
     color: #1AA325;
     text-decoration: none;
