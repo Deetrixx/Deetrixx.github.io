@@ -187,3 +187,19 @@ NAVIGATION SECTION
 .empty {
     height: 20vw;
 }
+
+.smedia {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vw;
+    color: #1AA325;
+}
+
+.socialmedia {
+    display: inline;
+    color: #1AA325;
+}
+
+
+/****************************************************************
+
+***************************************************************/
