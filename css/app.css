@@ -195,9 +195,10 @@ NAVIGATION SECTION
 
 .aboutme {
     font-family: 'Playfair Display', serif;
-    font-size: 2.8vw;
+    font-size: 3.5vw;
     color: black;
     text-decoration: underline;
+    text-align: center;
 }
 
 .personal {
