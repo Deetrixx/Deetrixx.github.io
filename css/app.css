@@ -24,8 +24,8 @@ NAVIGATION SECTION
 }
 
 .menu__link {
-    font-size: 1.05em;
-    font-weight: bold;
+    font-size: 2.5vm;
+    font-weight: normal;
     display: block;
     padding: 1em;
     cursor: pointer;
@@ -59,7 +59,7 @@ NAVIGATION SECTION
 }
 
 .menu--sebastian .menu__item--current .menu__link {
-    color: #d94f5c;
+    color: #1AA325;
 }
 
 .menu--sebastian .menu__link::before,
@@ -69,7 +69,7 @@ NAVIGATION SECTION
     left: 0;
     width: 100%;
     height: 2px;
-    background: #d94f5c;
+    background: #1AA325;
     -webkit-transform: scale3d(0, 1, 1);
     transform: scale3d(0, 1, 1);
     -webkit-transition: -webkit-transform 0.2s;
@@ -118,7 +118,7 @@ NAVIGATION SECTION
 }
 
 .menu--prospero .menu__item--current .menu__link {
-    color: #d94f5c;
+    color: #1AA325;
 }
 
 .menu--prospero .menu__link::before {
@@ -128,7 +128,7 @@ NAVIGATION SECTION
     left: 0;
     width: 100%;
     height: 4px;
-    background: #d94f5c;
+    background: #1AA325;
     -webkit-transform: scale3d(0, 1, 1);
     transform: scale3d(0, 1, 1);
     -webkit-transition: -webkit-transform 0.1s;
@@ -151,10 +151,10 @@ NAVIGATION SECTION
 
 .home {
     background-image: url(/images/laptop_4-wallpaper-1280x800.jpg);
-    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
     max-width: 1280px;
-    height: 800px;
-
+    height: 80vw;
 }
 
 .container {
@@ -163,19 +163,27 @@ NAVIGATION SECTION
 }
 
 .intro {
-        font-family: 'Playfair Display', serif;
-    font-size: 25px;
-    color:#1AA325;
-/*    float:left;*/
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vw;
+    color: #1AA325;
+    /*    float:left;*/
 }
 
 .profileimage {
     border-radius: 50%;
-    height:200px;
+    height: 20vw;
     float: left;
-
 }
 
 .image {
-    height:  150px;
+    height: 15vw;
+}
+
+.navbar {
+    position: fixed;
+    /*    background-color: black;*/
+}
+
+.empty {
+    height: 20vw;
 }
