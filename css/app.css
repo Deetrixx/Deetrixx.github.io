@@ -233,6 +233,9 @@ NAVIGATION SECTION
 ****************************************************************/
 
 .portfolio {
+    background-image: url(/images/desk-wallpaper-1280x720.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
     font-family: 'Playfair Display', serif;
     font-size: 3.5vw;
     color: black;
