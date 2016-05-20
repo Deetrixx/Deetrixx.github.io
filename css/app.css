@@ -181,7 +181,8 @@ NAVIGATION SECTION
 
 .navbar {
     position: fixed;
-    /*    background-color: black;*/
+    background-color: #362E2F;
+    opacity: 0.2;
 }
 
 .empty {
@@ -272,6 +273,209 @@ background-repeat: no-repeat;
     display: inline-block;
     color: #1AA325;
     text-decoration: none;
+}
+
+
+/* FOR ALL HEADERS */
+
+.contact-header {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    font: small-caps 300 85px 'Lato', sans-serif;
+    letter-spacing: 3px;
+    color: #ddd;
+    margin-bottom: 25px;
+}
+
+#contact {
+    width: 100%;
+    height: 650px;
+    background-color: #222;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.contact-header {
+    color: #eee;
+}
+
+.contact-wrapper {
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+    max-width: 800px;
+}
+
+
+/*********************
+  CONTACT PAGE LEFT
+*********************/
+
+.form-horizontal {
+    float: left;
+    max-width: 400px;
+}
+
+.form-control,
+textarea {
+    max-width: 400px;
+    background-color: #222;
+    color: #fff;
+}
+
+.send-button {
+    margin-top: 15px;
+    width: 400px;
+}
+
+
+/**********************
+  CONTACT PAGE RIGHT
+**********************/
+
+.direct-contact-container {
+    max-width: 400px;
+    float: right;
+    margin-top: 5px;
+}
+
+.contact-list {
+    list-style-type: none;
+    margin-left: -30px;
+    padding-right: 20px;
+}
+
+.list-item {
+    line-height: 4;
+    color: #aaa;
+}
+
+.contact-text {
+    font: 300 20px 'Lato', sans-serif;
+    letter-spacing: 1.9px;
+    color: #bbb;
+}
+
+.place {
+    margin-left: 62px;
+}
+
+.phone {
+    margin-left: 56px;
+}
+
+.gmail {
+    margin-left: 53px;
+}
+
+.contact-text a {
+    color: #bbb;
+    text-decoration: none;
+}
+
+.contact-text a:hover {
+    color: #fff;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+}
+
+.social-media-icons-list {
+    text-align: center;
+    margin-left: -50px;
+}
+
+.social-media-icons-list li {
+    display: inline-block;
+    margin: -5px 5px;
+    filter: grayscale(30%);
+    -webkit-filter: grayscale 30%);
+}
+
+.social-media-icon img:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    transition: all .1s ease-in-out;
+}
+
+.copyright {
+    font: 100 15px 'Lato', sans-serif;
+    color: #bbb;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+
+/****************************
+CONTACT SECTION MEDIA QUERIES
+****************************/
+
+@media screen and (max-width: 760px) {
+    #contact {}
+    contact-header {
+        font-size: 65px;
+    }
+    .direct-contact-container,
+    .form-horizontal {
+        float: none;
+        margin: 0 auto;
+    }
+    .name,
+    .email,
+    textarea,
+    button {
+        max-width: 370px;
+    }
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    #contact {
+        height: 1200px;
+    }
+    .direct-contact-container,
+    .form-wrapper {
+        float: none;
+        margin: 0 auto;
+    }
+    .name,
+    .email,
+    textarea {
+        max-width: 280px;
+    }
+    .direct-contact-container {
+        margin-top: 60px;
+        max-width: 280px;
+    }
+    .contact-text {
+        font-size: ;
+    }
+    .copyright {
+        font-size: 16px;
+    }
+    .social-media-icons-list li {
+        margin: 5px 0px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .send-button {
+        width: 99%;
+    }
 }
 
 
