@@ -243,6 +243,7 @@ background-repeat: no-repeat;
     color: black;
     text-decoration: underline;
     text-align: center;
+    display: inline;
 }
 
 .pf {
