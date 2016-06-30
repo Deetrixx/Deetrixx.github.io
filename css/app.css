@@ -191,6 +191,10 @@ NAVIGATION SECTION
     height: 20vw;
 }
 
+.smedia {
+    display: inline-block;
+}
+
 
 /****************************************************************
                         About Me
