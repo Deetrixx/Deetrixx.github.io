@@ -131,15 +131,23 @@
         </section>
         <section class="blog">
         </section>
-        <section class="portfolio" id="portfolio">
+        <section class=" portfolio" id="portfolio">
             <h1><u>Portfolio</u></h1>
             <div class="container1">
                 <div id="carousel">
-                    <figure><img src="images/Screenshot%20from%202016-06-30%2012:54:26.png" alt=""></figure>
-                    <figure><img src="images/band.png" alt=""></figure>
-                    <figure><img src="images/core.jpg" alt=""></figure>
+                    <figure><img src="images/Screenshot%20from%202016-06-30%2012:54:26.png" alt="">
+                        <a href="#"></a>
+                    </figure>
+                    <figure><img src="images/band.png" alt="">
+                        <a href="#"></a>
+                    </figure>
+                    <figure><img src="images/core.jpg" alt="">
+                        <a href="#"></a>
+                    </figure>
 
-                    <figure><img src="images/Screenshot%20from%202016-05-20%2003:04:22.png" alt=""></figure>
+                    <figure><img src="images/Screenshot%20from%202016-05-20%2003:04:22.png" alt="">
+                        <a href="#"></a>
+                    </figure>
                     <!--<figure><img src="http://lorempixel.com/186/116/nature/5" alt=""></figure>
 			<figure><img src="http://lorempixel.com/186/116/nature/6" alt=""></figure>
 			<figure><img src="http://lorempixel.com/186/116/nature/7" alt=""></figure>
@@ -164,109 +172,53 @@
                 <div class="column">
                     <img src="/images/logo.png" class="pofo" alt="">
                     <h4>Sage</h4>
-                </div>
+                </div>rows="10" cols="30"
                 <div class="column">
                     <img src="/images/Screenshot%20from%202016-05-20%2003:04:22.png" class="pofo" alt="">
                     <a href="http://quoraloginpage.bitballoon.com/">
                         <h4>Quora</h4>
-                </div>
+                </div>onclick="alert('Hello World!')"
             </div>
 -->
         </section>
-        <section class="contactme" id="contactme">
-            <section id="contact">
+        <section class="contactme overlay row" id="contactme">
+            <h2 class="CM row columns text-center">Contact Me</h2>
+            <div id="form-main">
+                <div id="form-div">
+                    <form class="form" id="form1">
 
-                <h1 class="contact-header">Contact Me</h1>
+                        <p class="name">
+                            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                        </p>
 
-                <div class="contact-wrapper">
+                        <p class="email">
+                            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                        </p>
 
-                    <!-- CONTACT PAGE LEFT -->
+                        <p class="text">
+                            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                        </p>
 
-                    <form class="form-horizontal" role="form" method="post" action="index.php">
 
-                        <div class="container">
-
-                            <div class="form-group">
-                                <div class="col-sm-8">
-                                    <input type="name" class="form-control" id="inputNAME3" placeholder="NAME">
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div class="col-sm-8">
-                                    <input type="email" class="form-control" id="inputEMAIL3" placeholder="EMAIL">
-                                </div>
-                            </div>
-
-                            <textarea class="form-control" rows="8" placeholder="MESSAGE"></textarea>
-
-                            <button class="btn btn-primary send-button" type="submit" value="SEND"><i class="fa fa-paper-plane"></i></button>
-
+                        <div class="submit">
+                            <input type="submit" value="SEND" id="button-blue" />
+                            <div class="ease"></div>
                         </div>
-
                     </form>
-
-                    <!-- CONTACT PAGE RIGHT -->
-
-                    <div class="direct-contact-container">
-
-                        <ul class="contact-list">
-                            <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Nairobi,Kenya</span></i></li>
-
-                            <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-863-944-6183" title="Give me a call">0702591393</a></span></i></li>
-
-                            <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">dennisgithua30@gmail.com</a></span></i></li>
-
-                        </ul>
-
-                        <hr>
-
-                        <ul class="social-media-icons-list">
-
-                            <li>
-                                <a href="https://www.linkedin.com/in/dennis-githua-39503099?trk=nav_responsive_tab_profile_pic" target="_blank" class="social-media-icon linkedin"><img src="https://cdn3.iconfinder.com/data/icons/social-media-chat-1/512/LinkedIn-128.png" height="60px" width="60px" alt="Linkedin Icon"></a>
-                            </li>
-
-                            <li>
-                                <a href="https://plus.google.com/u/0/103193025457653591676" target="_blank" class="social-media-icon googleplus"><img src="https://cdn3.iconfinder.com/data/icons/social-media-chat-1/512/GooglePlus-128.png" height="60px" width="60px" alt="Google+ Icon"></a>
-                            </li>
-
-                            <!--
-                           <li>
-    <a href="https://vimeo.com/user39166592" target="_blank" class="social-media-icon vimeo"><img src="https://cdn3.iconfinder.com/data/icons/social-media-chat-1/512/Vimeo-128.png" height="60px" width="60px" alt="Vimeo Icon"></a>
-</li>
--->
-
-                            <!--
-                            <li>
-                                <a href="http://www.imdb.com/name/nm3132890/" target="_blank" class="social-media-icon imdb"><img src="https://cdn3.iconfinder.com/data/icons/social-media-chat-1/512/IMDb-128.png" height="60px" width="60px" alt="IMDB Icon"></a>
-                            </li>
--->
-
-                        </ul>
-
-                        <hr>
-
-                        <div class="copyright">&copy; 2016 ALL RIGHTS RESERVED</div>
-
-                    </div>
-
                 </div>
 
-            </section>
-
         </section>
-    </div>
-    <script src="/js/clipboard.min.js"></script>
-    <!--
+        </div>
+        <script src="/js/clipboard.min.js"></script>
+        <!--
     < script>
     (function () { [].slice.call(document.querySelectorAll('.menu')).forEach(function (menu) { var menuItems = menu.querySelectorAll('.menu__link'), setCurrent = function (ev) { ev.preventDefault(); var item = ev.target.parentNode; // li // return if already current if (classie.has(item, 'menu__item--current')) { return false; } // remove current classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current'); // set current classie.add(item, 'menu__item--current'); }; [].slice.call(menuItems).forEach(function (el) { el.addEventListener('click', setCurrent); }); }); [].slice.call(document.querySelectorAll('.link-copy')).forEach(function (link) { link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id); new Clipboard(link); link.addEventListener('click', function () { classie.add(link, 'link-copy--animate'); setTimeout(function () { classie.remove(link, 'link-copy--animate'); }, 300); }); }); })(window);
     </script>
 -->
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
 </body>
 
 </html>
