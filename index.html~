@@ -1,0 +1,248 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dennis Githua</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!--    parralax js-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script>
+        $(function () {
+            $.stellar({
+                horizontalScrolling: false,
+                verticalOffset: 40
+            });
+        });
+    </script>
+    <!--google fonts-->
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <section class="home row small-12 columns text-center" id="Home" data-stellar-background-ratio="1">
+            <nav class=" row  small -12 columns menu menu--prospero text-center navbar expanded">
+
+                <ul class=" row menu__list">
+                    <li class="menu__item menu__item--current small-12 large-2 columns">
+                        <a class="menu__link " href="#Home">Home</a>
+                    </li>
+                    <li class="menu__item small-12 large-3 columns">
+                        <a class="menu__link " href="#WhoIam">Who I am</a>
+                    </li>
+                    <li class="menu__item small-12 large-3 columns">
+                        <a class="menu__link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="menu__item small-12 large-2 columns">
+                        <a class="menu__link" href="/blog">Blog</a>
+                    </li>
+                    <li class="menu__item small-12 large-2 columns">
+                        <a class="menu__link" href="#contactme">Contact me</a>
+                    </li>
+                </ul>
+
+            </nav>
+            <div class="small-12 column row empty">&nbsp;
+            </div>
+            <div class="small-12 column row text-center">
+                <img src="images/13007258_1038417966224532_7677169963446623048_n.jpg" class="profileimage">
+            </div>
+            <div class="row intro">
+
+                <div class="small-6 large-4 columns">
+                    &nbsp;</div>
+                <div class="small-6 large-4 columns">
+                    <h3 class="intro">Dennis Githua</h3>
+                    <br>I am a junior web and mobile developer
+                </div>
+                <div class="small-12 large-4 columns">
+                    &nbsp;
+                </div>
+            </div>
+            <!--
+            <div class="row soclmed">
+    <div class="small-6 large-4 columns">
+        &nbsp;</div>
+    <div class="small-6 large-4 columns">
+        <h3 class="intro">FOLLOW ME @:-</h3>
+        <br>
+        <ul class="smedia">
+            <li><i class="fa fa-facebook" aria-hidden="true"></i>
+                <a href="#"></a>
+            </li>
+            <li><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                <a href="#"></a>
+            </li>
+            <li><i class="fa fa-github" aria-hidden="true"></i>
+                <a href="#"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="small-12 large-4 columns">
+        &nbsp;
+    </div>
+</div>
+-->
+        </section>
+        <section class="aboutus" id="WhoIam">
+            <div class="row ">
+                <h2 class="aboutme">WHO I AM</h2>
+                <div class="row columns">
+                    <p class="SA">
+                        I am a passionate,determined software engineer,dedicatred to build applications that impact the worls in a positive way providing solution to every day problems.
+                    </p>
+                </div>
+                <div class="large-6 columns">
+                    <h3 class="personal">Strong Attributes</h3>
+                    <ul class="SA">
+                        <li>Determined</li>
+                        <li>Joyfull</li>
+                        <li>Adaptive and Flexible</li>
+                        <li>Respectful</li>
+                        <li>Team-Player</li>
+                    </ul>
+                </div>
+                <div class="large-6 columns">
+                    <h3 class="personal">When am not coding</h3>
+                    <ul class="SA">
+                        <li>Excersing;playing basketball,swimming</li>
+                        <li>Watching the ocassional movie</li>
+                        <li>Socializing with my friends</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="column row text-center SIntro">
+                MY SKILLS
+            </div>
+            <div class="row small-up-1 medium-up-2 large-up-4 skills">
+                <div class="column">
+                    <img src="/images/css3-html5-js-logo.png" class="frontend" alt="">
+                    <h4 class="skls">HTML5,CSS3 & JSS </h4>
+                    <p>HTML5 is a markup language used for structuring and presenting content on the World Wide Web. CSS3 s a style sheet language used for describing the presentation of a document written in a markup language.JavaScript(JSS) is the programming language of HTML and the Web.</p>
+                </div>
+                <div class="column">
+                    <img src="/images/download.png" class="foundation" alt="">
+                    <h4 class="skls">Foundation Framework</h4>
+                    <p>Foundation is a responsive front-end framework. Foundation provides a responsive grid and HTML and CSS UI components, templates, and code snippets, including typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.</p>
+                </div>
+                <div class="column">
+                    <img src="/images/offer2.png" class="java" alt="">
+                    <h4 class="skls">Java</h4>
+                    <p>Java programming is a general-purpose computer programming language that is concurrent, class-based, object-oriented,and specifically designed to have as few implementation dependencies as possible</p>
+                </div>
+                <div class="column">
+                    <img src="/images/icon175x175.jpeg" class="thumbnail" alt="">
+                    <h4 class="skls">Python</h4>
+                    <p>Python is a widely used high-level, general-purpose, interpreted, dynamic programming language.Its design philosophy emphasizes code readability, and its syntax allows programmers to express concepts in fewer lines of code than would be possible in languages such as C++ or Java.</p>
+                </div>
+                <!--
+  <div class="column">
+    <img src="//placehold.it/300x300" class="thumbnail" alt="">
+  </div>
+  <div class="column">
+    <img src="//placehold.it/300x300" class="thumbnail" alt="">
+  </div>
+-->
+            </div>
+        </section>
+        <section class="blog">
+        </section>
+        <section class=" portfolio" id="portfolio">
+            <h1><u>Portfolio</u></h1>
+            <div class="container1">
+                <div id="carousel">
+                    <figure><img src="images/Screenshot%20from%202016-06-30%2012:54:26.png" alt="">
+                        <a href="deetrixx.github.io/visisonscaterers"></a>
+                    </figure>
+                    <figure><img src="images/Screenshot%20from%202016-07-08%2016:29:54.png" alt="">
+                        <a href="deetrixx.github.io/epicgym"></a>
+                    </figure>
+                    <figure><img src="images/core.jpg" alt="">
+                        <a href="jordan.github.io/visisonscaterers"></a>
+                    </figure>
+
+                    <figure><img src="images/Screenshot%20from%202016-05-20%2003:04:22.png" alt="">
+                        <a href="#"></a>
+                    </figure>
+                    <!--<figure><img src="http://lorempixel.com/186/116/nature/5" alt=""></figure>
+			<figure><img src="http://lorempixel.com/186/116/nature/6" alt=""></figure>
+			<figure><img src="http://lorempixel.com/186/116/nature/7" alt=""></figure>
+			<figure><img src="http://lorempixel.com/186/116/nature/8" alt=""></figure>
+			<figure><img src="http://lorempixel.com/186/116/people/9" alt=""></figure>
+-->
+                </div>
+            </div>
+
+            <!--
+            <div class="row small-up-1 medium-up-2 large-up-4">
+                <h3 class="portfolio">PORTFOLIO</h3>
+                <div class="column pf">
+                    <img src="/images/band.png" class="pofo" alt="">
+                    <h4>Band</h4>
+                </div>
+                <div class="column">
+                    <img src="/images/bg.jpg" class="pofo" alt="">
+                    <a href="http://jordan-dennis.bitballoon.com/">
+                        <h4>Jordan</h4>
+                </div>
+                <div class="column">
+                    <img src="/images/logo.png" class="pofo" alt="">
+                    <h4>Sage</h4>
+                </div>rows="10" cols="30"
+                <div class="column">
+                    <img src="/images/Screenshot%20from%202016-05-20%2003:04:22.png" class="pofo" alt="">
+                    <a href="http://quoraloginpage.bitballoon.com/">
+                        <h4>Quora</h4>
+                </div>onclick="alert('Hello World!')"
+            </div>
+-->
+        </section>
+        <section class="contactme overlay row" id="contactme">
+            <h2 class="CM row columns text-center">Contact Me</h2>
+            <div id="form-main">
+                <div id="form-div">
+                    <form class="form" id="form1">
+
+                        <p class="name">
+                            <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+                        </p>
+
+                        <p class="email">
+                            <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+                        </p>
+
+                        <p class="text">
+                            <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+                        </p>
+
+
+                        <div class="submit">
+                            <input type="submit" value="SEND" id="button-blue" />
+                            <div class="ease"></div>
+                        </div>
+                    </form>
+                </div>
+
+        </section>
+        </div>
+        <script src="/js/clipboard.min.js"></script>
+        <!--
+    < script>
+    (function () { [].slice.call(document.querySelectorAll('.menu')).forEach(function (menu) { var menuItems = menu.querySelectorAll('.menu__link'), setCurrent = function (ev) { ev.preventDefault(); var item = ev.target.parentNode; // li // return if already current if (classie.has(item, 'menu__item--current')) { return false; } // remove current classie.remove(menu.querySelector('.menu__item--current'), 'menu__item--current'); // set current classie.add(item, 'menu__item--current'); }; [].slice.call(menuItems).forEach(function (el) { el.addEventListener('click', setCurrent); }); }); [].slice.call(document.querySelectorAll('.link-copy')).forEach(function (link) { link.setAttribute('data-clipboard-text', location.protocol + '//' + location.host + location.pathname + '#' + link.parentNode.id); new Clipboard(link); link.addEventListener('click', function () { classie.add(link, 'link-copy--animate'); setTimeout(function () { classie.remove(link, 'link-copy--animate'); }, 300); }); }); })(window);
+    </script>
+-->
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+</body>
+
+</html>

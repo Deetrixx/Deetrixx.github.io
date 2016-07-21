@@ -1,0 +1,531 @@
+/******************************************************************
+NAVIGATION SECTION
+******************************************************************/
+
+nav {
+    z-index: 10000;
+}
+
+.menu {
+    line-height: 1;
+    margin: 0 auto 3em;
+}
+
+.menu__list {
+    /*    position: relative;*/
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu__item {
+    display: block;
+    margin: 1em 0;
+}
+
+.menu__link {
+    font-size: 1.5vm;
+    font-weight: bold;
+    display: block;
+    padding: 1vsm;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.menu__link:hover,
+.menu__link:focus {
+    outline: none;
+}
+
+.menu--sebastian .menu__link {
+    /*    position: relative;*/
+    display: block;
+    margin: 0 1em;
+    text-align: center;
+    color: #929292;
+    -webkit-transition: color 0.4s;
+    transition: color 0.4s;
+}
+
+.menu--sebastian .menu__link:hover,
+.menu--sebastian .menu__link:focus {
+    color: #fff;
+}
+
+.menu--sebastian .menu__item--current .menu__link {
+    color: #1AA325;
+}
+
+.menu--sebastian .menu__link::before,
+.menu--sebastian .menu__link::after {
+    content: '';
+    /*    position: absolute;*/
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #1AA325;
+    -webkit-transform: scale3d(0, 1, 1);
+    transform: scale3d(0, 1, 1);
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+}
+
+.menu--sebastian .menu__link::before {
+    top: 0;
+    -webkit-transform-origin: 0 50%;
+    transform-origin: 0 50%;
+}
+
+.menu--sebastian .menu__link::after {
+    bottom: 0;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+}
+
+.menu--sebastian .menu__item--current .menu__link::before,
+.menu--sebastian .menu__item--current .menu__link::after {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition-timing-function: cubic-bezier(0.22, 0.61, 0.36, 1);
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+
+/* Prospero */
+
+.menu--prospero .menu__link {
+    /*    position: relative;*/
+    display: block;
+    /*
+    margin: 0 1.5em;
+    padding: 0.75em 0;
+*/
+    text-align: center;
+    color: #b5b5b5;
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.menu--prospero .menu__link:hover,
+.menu--prospero .menu__link:focus {
+    color: #929292;
+}
+
+.menu--prospero .menu__item--current .menu__link {
+    color: #1AA325;
+}
+
+.menu--prospero .menu__link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #1AA325;
+    -webkit-transform: scale3d(0, 1, 1);
+    transform: scale3d(0, 1, 1);
+    -webkit-transition: -webkit-transform 0.1s;
+    transition: transform 0.1s;
+}
+
+.menu--prospero .menu__item--current .menu__link::before {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+
+
+/****************************************************************
+                    Home Section
+****************************************************************/
+
+.home {
+    background-image: url(/images/laptop_4-wallpaper-1280x800.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    height: 80vw;
+    background-attachment: fixed;
+    background-position: 50% 0;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.intro {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vw;
+    color: #19D033;
+    /*    float:left;*/
+}
+
+.profileimage {
+    border-radius: 50%;
+    height: 20vw;
+    align-content: center;
+    /*    float: left;*/
+}
+
+.image {
+    height: 15vw;
+}
+
+.navbar {
+    position: fixed;
+    background-color: #362E2F;
+}
+
+.empty {
+    height: 20vw;
+}
+
+.smedia {
+    display: inline-block;
+}
+
+
+/****************************************************************
+                        About Me
+****************************************************************/
+
+.aboutme {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5vw;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.personal {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5vw;
+    color: #2BAD48;
+}
+
+.SA {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
+}
+
+.SA li {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
+    /*    text-align: center;*/
+}
+
+.SIntro {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5vw;
+}
+
+.skills {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
+}
+
+.skls {
+    color: #2BAD48;
+}
+
+
+/****************************************************************
+                       portfolio
+****************************************************************/
+
+.portfolio {
+    /*
+    background-image: url(/images/desk-wallpaper-1280x720.jpg);
+background-size: contain;
+background-repeat: no-repeat;
+*/
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5vw;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    display: inline;
+}
+
+
+/*
+.pf {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5vw;
+    color: #2BAD48;
+}
+*/
+
+
+}
+h1 {
+    display: table;
+    margin: 5% auto 0;
+    text-transform: uppercase;
+    font-family: 'Anaheim', sans-serif;
+    font-size: 4em;
+    font-weight: 400;
+    text-shadow: 0 1px white, 0 2px black;
+}
+.container1 {
+    margin: 4% auto;
+    width: 210px;
+    height: 140px;
+    position: relative;
+    perspective: 1000px;
+}
+#carousel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotation 20s infinite linear;
+}
+#carousel:hover {
+    animation-play-state: paused;
+}
+#carousel figure {
+    display: block;
+    position: absolute;
+    width: 186px;
+    height: 116px;
+    left: 10px;
+    top: 10px;
+    background: black;
+    overflow: hidden;
+    border: solid 5px black;
+}
+#carousel figure:nth-child(1) {
+    transform: rotateY(0deg) translateZ(288px);
+}
+#carousel figure:nth-child(2) {
+    transform: rotateY(40deg) translateZ(288px);
+}
+#carousel figure:nth-child(3) {
+    transform: rotateY(80deg) translateZ(288px);
+}
+#carousel figure:nth-child(4) {
+    transform: rotateY(120deg) translateZ(288px);
+}
+#carousel figure:nth-child(5) {
+    transform: rotateY(160deg) translateZ(288px);
+}
+#carousel figure:nth-child(6) {
+    transform: rotateY(200deg) translateZ(288px);
+}
+#carousel figure:nth-child(7) {
+    transform: rotateY(240deg) translateZ(288px);
+}
+#carousel figure:nth-child(8) {
+    transform: rotateY(280deg) translateZ(288px);
+}
+#carousel figure:nth-child(9) {
+    transform: rotateY(320deg) translateZ(288px);
+}
+.portfolio img {
+    -webkit-filter: grayscale(1);
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.portfolio img:hover {
+    -webkit-filter: grayscale(0);
+    transform: scale(1.2, 1.2);
+}
+@keyframes rotation {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+/****************************************************************
+                         Contact us
+****************************************************************/
+.contactme {
+    background-image: url(../images/desk-wallpaper-1280x720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1280px;
+    height: 72vw;
+    background-attachment: fixed;
+}
+.overlay {
+    height: 100%;
+    width: 100%;
+    opacity: 0.8%;
+}
+.CM {
+    font-family: 'Playfair Display', serif;
+    font-size: 3.5vw;
+    font-weight: 400;
+    color: #146B20;
+}
+#feedback-page {
+    text-align: center;
+}
+#form-main {
+    width: 100%;
+    float: left;
+    padding-top: 0px;
+}
+#form-div {
+    background-color: rgba(72, 72, 72, 0.4);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    width: 450px;
+    float: left;
+    left: 50%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -260px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+.feedback-input {
+    color: #3c3c3c;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 0;
+    line-height: 22px;
+    background-color: #fbfbfb;
+    padding: 13px 13px 13px 54px;
+    margin-bottom: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+.feedback-input:focus {
+    background: #fff;
+    box-shadow: 0;
+    border: 3px solid #3498db;
+    color: #3498db;
+    outline: none;
+    padding: 13px 13px 13px 54px;
+}
+.focused {
+    color: #30aed6;
+    border: #30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name {
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+#name:focus {
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+    background-size: 30px 30px;
+    background-position: 8px 5px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+#email {
+    background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+#email:focus {
+    background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+#comment {
+    background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+    background-size: 30px 30px;
+    background-position: 11px 8px;
+    background-repeat: no-repeat;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    line-height: 150%;
+    resize: vertical;
+}
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    background-color: white;
+}
+#button-blue {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    float: left;
+    width: 100%;
+    border: #fbfbfb solid 4px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-top: -4px;
+    font-weight: 700;
+}
+#button-blue:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: #0493bd;
+}
+.submit:hover {
+    color: #3498db;
+}
+.ease {
+    width: 0px;
+    height: 74px;
+    background-color: #fbfbfb;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -o-transition: .3s ease;
+    -ms-transition: .3s ease;
+    transition: .3s ease;
+}
+.submit:hover .ease {
+    width: 100%;
+    background-color: white;
+}
+@media only screen and (max-width: 580px) {
+    #form-div {
+        left: 3%;
+        margin-right: 3%;
+        width: 88%;
+        margin-left: 0;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+}
+
+/****************************************************************
+
+***************************************************************/
