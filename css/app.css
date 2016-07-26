@@ -636,3 +636,9 @@ textarea:focus {
 .sec00 {
     color: #010D2A;
 }
+
+.socialmedia {
+    background: #010D2A;
+    width: 100%;
+    height: auto;
+}
