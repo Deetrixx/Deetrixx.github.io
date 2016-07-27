@@ -543,3 +543,14 @@ textarea {
 .skills {
     background: #B0BEA9;
 }
+
+.CInfo {
+    display: block;
+    color: #C3C3C3;
+}
+
+.list {
+    list-style: none;
+    font-size: 25px;
+    color: aqua;
+}
