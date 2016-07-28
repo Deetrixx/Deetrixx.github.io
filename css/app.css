@@ -276,6 +276,20 @@ p {
     color: #010D2A;
 }
 
+.prompt {
+    color: #010D2A;
+    font-size: 25px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.output {
+    display: none;
+}
+
+.active:after {
+    content: '_';
+}
+
 
 /***********************ABOUT ME********************************/
 
